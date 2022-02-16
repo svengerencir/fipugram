@@ -42,8 +42,7 @@
                 class="form-control"
                 id="emailInput"
                 aria-describedby="emailHelp"
-                placeholder="Enter
-email"
+                placeholder="Enter email"
               />
               <small id="emailHelp" class="form-text text-muted"
                 >We'll never share your email with anyone else.</small
