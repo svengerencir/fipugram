@@ -44,7 +44,8 @@
         </ul>
         <form class="form-inline">
           <input
-            class="form-control funfont btn-roza border-roza"
+            v-model="store.searchTerm"
+            class="form-control mr-sm-2 btn-roza border-roza"
             type="search"
             placeholder="Search"
             aria-label="Search"
@@ -55,6 +56,17 @@
     <router-view />
   </div>
 </template>
+<script>
+import store from "@/store";
+export default {
+  name: "app",
+  data() {
+    return {
+      store,
+    };
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
